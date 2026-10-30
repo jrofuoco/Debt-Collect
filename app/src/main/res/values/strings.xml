@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Debt Collect</string>
+    <string name="show_password">Show</string>
+    <string name="hide_password">Hide</string>
+    <string name="signed_in_title">Welcome, %1$s</string>
+    <string name="password_reset_not_connected">Password reset will be available when the authentication service is connected.</string>
+    <string name="registration_not_connected">Account creation will be available when the authentication service is connected.</string>
 </resources>
