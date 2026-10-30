@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/signupContent"
+    android:id="@+id/signupRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#090D15"
     android:fillViewport="true"
-    android:visibility="gone">
+    android:visibility="visible">
 
     <LinearLayout
         android:layout_width="match_parent"

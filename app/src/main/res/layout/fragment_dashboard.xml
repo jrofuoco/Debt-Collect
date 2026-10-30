@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090D15"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:contentDescription=""
+        android:src="@drawable/debt_collect_logo" />
+
+    <TextView
+        android:id="@+id/signedInTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="You’re signed in"
+        android:textColor="#F5F7FA"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Your collection dashboard is ready for the next module."
+        android:textColor="#8E9BAC"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_background"
+        android:text="Sign out"
+        android:textAllCaps="false"
+        android:textColor="#07120F"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment android:id="@+id/splashFragment" android:name="com.jimac.debtcollect.ui.splash.SplashFragment">
+        <action android:id="@+id/action_splash_to_login" app:destination="@id/loginFragment" app:popUpTo="@id/splashFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:id="@+id/loginFragment" android:name="com.jimac.debtcollect.ui.login.LoginFragment">
+        <action android:id="@+id/action_login_to_signup" app:destination="@id/signupFragment" />
+        <action android:id="@+id/action_login_to_dashboard" app:destination="@id/dashboardFragment" app:popUpTo="@id/loginFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:id="@+id/signupFragment" android:name="com.jimac.debtcollect.ui.signup.SignupFragment">
+        <action android:id="@+id/action_signup_to_dashboard" app:destination="@id/dashboardFragment" app:popUpTo="@id/loginFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:id="@+id/dashboardFragment" android:name="com.jimac.debtcollect.ui.dashboard.DashboardFragment">
+        <argument android:name="displayName" app:argType="string" android:defaultValue="" />
+        <action android:id="@+id/action_dashboard_to_login" app:destination="@id/loginFragment" app:popUpTo="@id/dashboardFragment" app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

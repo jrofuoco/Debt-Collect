@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090D15"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+    <FrameLayout android:id="@+id/logoHalo" android:layout_width="128dp" android:layout_height="128dp" android:background="@drawable/logo_halo" android:gravity="center">
+        <ImageView android:id="@+id/logoMark" android:layout_width="72dp" android:layout_height="72dp" android:contentDescription="@string/logo_description" android:src="@drawable/debt_collect_logo" />
+    </FrameLayout>
+    <TextView android:id="@+id/brandName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:alpha="0" android:letterSpacing="0.025" android:text="Debt Collect" android:textColor="#F5F7FA" android:textSize="25sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tagline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:alpha="0" android:text="Clear balances. Build better habits." android:textColor="#8E9BAC" android:textSize="14sp" />
+</LinearLayout>
