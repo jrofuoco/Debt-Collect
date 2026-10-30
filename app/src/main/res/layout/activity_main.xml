@@ -254,6 +254,8 @@
         </LinearLayout>
     </ScrollView>
 
+    <include layout="@layout/view_signup" />
+
     <LinearLayout
         android:id="@+id/signedInContent"
         android:layout_width="match_parent"

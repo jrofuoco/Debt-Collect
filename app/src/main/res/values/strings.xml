@@ -4,5 +4,12 @@
     <string name="hide_password">Hide</string>
     <string name="signed_in_title">Welcome, %1$s</string>
     <string name="password_reset_not_connected">Password reset will be available when the authentication service is connected.</string>
-    <string name="registration_not_connected">Account creation will be available when the authentication service is connected.</string>
+    <string name="verify_email">Verify your email</string>
+    <string name="otp_sent_to">Enter the six-digit code sent to %1$s.</string>
+    <string name="cancel">Cancel</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">Resend code</string>
+    <string name="resend_in">Resend in %1$ds</string>
+    <string name="enter_six_digit_code">Enter the complete six-digit code.</string>
+    <string name="code_resent">A new verification code was sent.</string>
 </resources>
